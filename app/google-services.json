@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1036945074229",
+    "project_id": "aridagrisolutionsproject",
+    "storage_bucket": "aridagrisolutionsproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036945074229:android:be594e649388751f78297c",
+        "android_client_info": {
+          "package_name": "com.example.aridagrisolutions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036945074229-gkgavr8btjgrk2cispr20o97b8e568u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnOUAyjnWPfZ59VBd2C1w9hnlkEvIBlbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036945074229-gkgavr8btjgrk2cispr20o97b8e568u9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

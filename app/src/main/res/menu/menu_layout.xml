@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <item
+        android:id="@+id/menuDashboard"
+        android:title="Dashboard"
+        />
+    <item
+        android:id="@+id/menuCrops"
+        android:title="Crops"
+        />
+    <item
+        android:id="@+id/menuWeather"
+        android:title="Weather"
+        />
+    <item
+        android:id="@+id/menuFertilizer"
+        android:title="Fertilizers"
+        />
+    <item
+        android:id="@+id/menuFaqs"
+        android:title="FAQs"
+        />
+    <item
+        android:id="@+id/menuAbout"
+        android:title="About"
+        />
+    <item
+        android:id="@+id/menuLogout"
+        android:title="Logout"
+        />
+</menu>

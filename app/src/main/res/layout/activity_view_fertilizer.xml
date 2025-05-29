@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ViewFertilizer"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+            <ImageView
+                android:id="@+id/getFertImg"
+                android:layout_width="360dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"/>
+            <View
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+
+            <TextView
+                android:id="@+id/fertTitl"
+                android:gravity="center"
+                android:textStyle="bold|normal"
+                android:textSize="22sp"
+                android:elevation="15dp"
+                android:padding="5dp"
+                android:background="#00924f"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <View
+                android:background="@android:color/darker_gray"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textColor="@color/appColor"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:id="@+id/fertDesc"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:gravity="start"
+                android:justificationMode="inter_word"
+                android:layout_gravity="start"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usage:"
+                android:textColor="@color/appColor"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/fertUsage"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:gravity="start"
+                android:layout_gravity="start"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:justificationMode="inter_word"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>

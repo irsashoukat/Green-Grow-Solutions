@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Arid Agri Solutions</string>
+    <string name="trend1">Rising food prices have focused increased attention on global agricultural production and supply chains in the past year. As a result, 2022 will be another year of unprecedented supply and demand shocks, tight food supplies, and uncertain climate conditions. Gro Intelligence analyzes the vast amounts of data to produce machine learning-based predictive models that generate valuable knowledge and insights. Gro is the only platform showing the dynamic impact of climate, economic factors, and agricultural systems on each other.</string>
+    <string name="trend2">Botanist have discovered and developed ingenious agricultural methods that would have been impossible decades ago. The innovations keep coming, and it doesn\'t look like they\'re slowing down any time soon. Here are some of the top agriculture industry trends we\'re seeing for 2022 and the years to come.</string>
+    <string name="browsePicInUrdu">تصویر براؤز کریں</string>
+
+
+    <string name="cropTitleUrdu">فصل کا عنوان درج کریں..</string>
+    <string name="cropDetailUrdu">فصل کی تفصیل درج کریں..</string>
+    <string name="cropTempUrdu">فصل کا درجہ حرارت درج کریں..</string>
+    <string name="cropSoilConditionsUrdu">فصل کی مٹی کے حالات درج کریں..</string>
+    <string name="cropVarietyUrdu">فصل کی اقسام درج کریں...</string>
+    <string name="cropSowingUrdu">فصل کی بوائی کی تفصیلات درج کریں...</string>
+    <string name="cropFertilizerUrdu">فصل کی کھاد کی تفصیلات درج کریں...</string>
+    <string name="cropHarvestingUdu">فصل کی کٹائی کی تفصیلات درج کریں...</string>
+    <string name="browseAudioUrdu">آڈیو براؤز کریں</string>
+    <string name="uploadCropDetailsUrdu">فصل کا ڈیٹا اپ لوڈ کریں۔</string>
+    <string name="cropSeedRateUrdu">فصل کے بیج کی شرح درج کریں...</string>
+    <string name="cropIrrigationUrdu">فصل کی آبپاشی درج کریں ..</string>
+</resources>

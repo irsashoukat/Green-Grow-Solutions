@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".addFaq">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Provide FAQs"
+        android:textColor="#00924f"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="20"
+        android:background="@drawable/edit_bg"
+        android:minLines="5"
+        android:gravity="top|left"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:padding="10dp"
+        android:hint="Question"
+        />
+
+    <EditText
+        android:id="@+id/edAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="20"
+        android:background="@drawable/edit_bg"
+        android:minLines="8"
+        android:gravity="top|left"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:padding="10dp"
+        android:hint="Answer"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/save"
+        android:text="Save"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:text="Upload"
+        />
+</LinearLayout>
+
+</LinearLayout>

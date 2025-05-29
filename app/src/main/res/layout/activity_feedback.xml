@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".feedback">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="Give Feedback"
+        android:textColor="#00924f"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="How did we do?"
+        android:textSize="16sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:progressTint="#ffe234"
+        android:secondaryProgressTint="#DCBF14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Care to share more about it?"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:id="@+id/feedbackText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="30"
+        android:maxLines="10"
+        android:minLines="10"
+        android:padding="10dp"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/publishFeedback"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:text="Publish Feedback" />
+
+
+
+</LinearLayout>

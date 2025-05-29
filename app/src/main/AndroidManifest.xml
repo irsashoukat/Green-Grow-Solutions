@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aridagrisolutions">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconlogo"
+        android:label="GREEN-GROW SOLUTIONS"
+        android:roundIcon="@drawable/iconroundlogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AridAgriSolutions">
+        <activity android:name=".SelectLanguageFaq"></activity>
+        <activity android:name=".SelectLanguageCrop" />
+        <activity android:name=".FaqsUrdu" />
+        <activity android:name=".AddFaqUrdu" />
+        <activity android:name=".ViewItemUrdu" />
+        <activity android:name=".CropsUrdu" />
+        <activity android:name=".AddCropUrduActivity" />
+        <activity android:name=".ShowUserMessageActivity" />
+        <activity android:name=".ExpertsActivity" />
+        <activity android:name=".ExpertSignUp" />
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".LatestMessageActivity" />
+        <activity android:name=".ViewFertilizer" />
+        <activity android:name=".View_weather" />
+        <activity android:name=".View_item" />
+        <activity android:name=".adminQueries" />
+        <activity android:name=".viewFeedback" />
+        <activity android:name=".addFaq" />
+        <activity android:name=".addFertilizer" />
+        <activity android:name=".AddCrops" />
+        <activity android:name=".AdminDashboard" />
+        <activity android:name=".about" />
+        <activity android:name=".feedback" />
+        <activity android:name=".Queries" />
+        <activity android:name=".faqs" />
+        <activity android:name=".fertilizers" />
+        <activity android:name=".crops" />
+        <activity android:name=".weather" />
+        <activity android:name=".trends" />
+        <activity android:name=".login" />
+        <activity android:name=".signUp" />
+        <activity android:name=".splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

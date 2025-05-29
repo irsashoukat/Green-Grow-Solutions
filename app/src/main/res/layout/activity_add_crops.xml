@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AddCrops"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <ImageView
+        android:id="@+id/uploadImage"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/upload"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btnbrowse"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textAllCaps="false"
+        android:text="Browse" />
+
+    <EditText
+        android:id="@+id/edtitle"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="top|left"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Enter crop title.."
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:id="@+id/eddescription"
+        android:hint="Enter crop description.."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="30"
+        android:maxLines="10"
+        android:minLines="5"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:id="@+id/edtemp"
+        android:hint="Enter crop temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="30"
+        android:maxLines="10"
+        android:minLines="5"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="15dp"/>
+        />
+    <EditText
+        android:id="@+id/edsoil"
+        android:hint="Enter crop soil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="30"
+        android:maxLines="10"
+        android:minLines="5"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="15dp"/>
+        />
+    <EditText
+        android:id="@+id/edvariety"
+        android:hint="Enter crop variety"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="30"
+        android:maxLines="10"
+        android:minLines="5"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="15dp"/>
+        />
+    <EditText
+        android:id="@+id/edsowing"
+        android:hint="Enter crop sowing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="30"
+        android:maxLines="10"
+        android:minLines="5"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="15dp"/>
+        />
+    <EditText
+        android:id="@+id/edseedrate"
+        android:hint="Enter crop seed rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="30"
+        android:maxLines="10"
+        android:minLines="5"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="15dp"/>
+        />
+    <EditText
+        android:id="@+id/edfertilizer"
+        android:hint="Enter crop fertilizer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="30"
+        android:maxLines="10"
+        android:minLines="5"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="15dp"/>
+        />
+    <EditText
+        android:id="@+id/edirrigation"
+        android:hint="Enter crop irrigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="30"
+        android:maxLines="10"
+        android:minLines="5"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="15dp"/>
+        />
+    <EditText
+        android:id="@+id/edharvesting"
+        android:hint="Enter crop harvesting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="30"
+        android:maxLines="10"
+        android:minLines="5"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="15dp"/>
+        />
+
+    <Button
+        android:id="@+id/btnBrowseAudio"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:textAllCaps="false"
+        android:text="Browse Audio" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:id="@+id/btnupload"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:text="Upload" />
+
+        <Button
+            android:id="@+id/btnRetrieve"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:text="Retrieve" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+</ScrollView>

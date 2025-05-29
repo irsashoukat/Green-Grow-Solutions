@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AddFaqUrdu">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اکثر پوچھے جانے والے سوالات"
+        android:textColor="#00924f"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edQuestionUrdu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="20"
+        android:background="@drawable/edit_bg"
+        android:minLines="5"
+        android:gravity="top|right"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:padding="10dp"
+        android:hint="سوال درج کریں..."
+        />
+
+    <EditText
+        android:id="@+id/edAnswerUrdu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="30"
+        android:background="@drawable/edit_bg"
+        android:minLines="12"
+        android:gravity="top|right"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:padding="10dp"
+        android:hint="جواب درج کریں..."
+        />
+
+        <Button
+            android:id="@+id/uploadFaqUrdu"
+            android:text="اپ لوڈ کریں"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/displayFaqUrdu"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:layout_margin="10dp"
+            android:text="سوالات کی تفصیلات دیکھیں"
+            />
+
+</LinearLayout>

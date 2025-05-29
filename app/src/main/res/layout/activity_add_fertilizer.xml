@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".addFertilizer">
+
+    <ImageView
+        android:id="@+id/fertilizerImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/upload"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/fertilizerBrowse"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textAllCaps="false"
+        android:text="Browse" />
+
+    <EditText
+        android:id="@+id/fertilizerTitle"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="top|left"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Enter fertilizer title.."
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:id="@+id/fertilizerDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter fertilizer description.."
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="30"
+        android:maxLines="10"
+        android:minLines="5"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:id="@+id/fertilizerUsage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter fertilizer usage.."
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_bg"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="30"
+        android:maxLines="10"
+        android:minLines="5"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="15dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:id="@+id/fertilizerUpload"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:text="Upload" />
+
+        <Button
+            android:id="@+id/fertilizerRetrieve"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:text="Retrieve" />
+    </LinearLayout>
+
+
+</LinearLayout>
